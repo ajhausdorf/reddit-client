@@ -1,0 +1,11 @@
+.feed {
+    height: 100%;
+    padding: 25px;
+    background-color: rgb(247, 241, 241);
+    .feedWrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

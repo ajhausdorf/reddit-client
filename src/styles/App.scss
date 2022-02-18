@@ -1,2 +1,6 @@
-@use "../pages/homePage/_homepage.scss";
-@use "../features/stickyHeader/_stickyHeader.scss"
+@use "../pages/homePage/_homepage";
+@use "../features/stickyHeader/_stickyHeader";
+@use "../features/feed/feed";
+@use "../features/feedItem/feedItem";
+@use "../features/upvotes/upvotes";
+@use "../features/displayFeedItem/displayFeedItem";

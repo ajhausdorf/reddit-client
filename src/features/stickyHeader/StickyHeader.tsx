@@ -1,7 +1,7 @@
 import React from 'react'
 import RedditIcon from '@mui/icons-material/Reddit';
 
-const StickyHeader = () => {
+const StickyHeader: React.FC = () => {
   return (
     <div className='stickyHeader'>
         <div className="stickyHeaderWrapper">

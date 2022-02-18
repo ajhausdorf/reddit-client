@@ -1,10 +1,16 @@
 import React from 'react';
-import './App.css';
+import './styles/App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
         Hello
+        <div className="appwrap">
+          Hello
+          <div className="embed">
+            Hello
+          </div>
+        </div>
     </div>
   );
 }

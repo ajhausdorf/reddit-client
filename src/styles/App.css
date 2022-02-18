@@ -1,0 +1,10 @@
+.app {
+  color: white;
+}
+.app .appwrap {
+  color: blue;
+  height: 300px;
+}
+.app .appwrap .embed {
+  color: red;
+}

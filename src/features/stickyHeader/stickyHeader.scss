@@ -1,0 +1,42 @@
+.stickyHeader {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    .stickyHeaderWrapper {
+        height: 100%;
+        padding: 0px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .stickyHeaderLeft {
+            display: flex;
+            align-items: center;
+            .headerText {
+                margin-left: 15px;
+                font-size: 25px;
+                letter-spacing: 2px;
+            }
+        }
+        .stickyHeaderRight {
+            display: flex;
+            align-items: center;
+            .author {
+                font-size: 12px;
+                color: grey;
+            }
+            .profilePictureLink {
+                height: 25px;
+                width: 25px;
+                margin-left: 7px;
+                cursor: pointer;
+                .profilePicture {
+                    border-radius: 50%;
+                    height: 25px;
+                    width: 25px;
+                }
+            }
+        }
+    }
+}

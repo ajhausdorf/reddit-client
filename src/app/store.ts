@@ -1,8 +1,9 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
+import feedItemsSlice from '../features/feedItem/feedItemsSlice';
 
 export const store = configureStore({
   reducer: {
-
+    feedItems: feedItemsSlice
   },
 });
 

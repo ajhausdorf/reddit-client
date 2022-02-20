@@ -110,14 +110,17 @@
   justify-content: center;
   align-items: center;
 }
+.displayFeedItem .displayFeedItemWrapper .feedItemDescription {
+  margin-top: 15px;
+}
 .displayFeedItem .displayFeedItemWrapper .feedItemInfo .feedItemInfoWrapper {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 .displayFeedItem .displayFeedItemWrapper .feedItemInfo .feedItemInfoWrapper > div {
   margin-top: 0px;
-  padding: 20px;
+  padding: 20px 0px;
 }
 .displayFeedItem .displayFeedItemWrapper .feedItemInfo .feedItemInfoWrapper .comments {
   display: flex;
@@ -144,6 +147,5 @@
   }
   .displayFeedItem .displayFeedItemWrapper .feedItemInfo .feedItemInfoWrapper > div {
     margin-top: 20px;
-    padding: 20px;
   }
 }
